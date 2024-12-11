@@ -1,7 +1,13 @@
 Add "open [path to script]" to the chimeraX startup options
 
-select_color [color] selects all residues of that color (in the cartoon representation)
-replace_color [color] [color_two] recolors everything.
+To select all residues of that color (in the cartoon representation):
+>select_color [color]
+<br/>
+
+To recolor all residues of color1 to color2:
+>replace_color [color1] [color2]
+<br/>
+
 
 For colors with multiple words (e.g. "sky blue") use quotes.
 
